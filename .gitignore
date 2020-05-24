@@ -1,0 +1,19 @@
+.vscode/
+
+# MIPS assembly files produced by coolc
+**/*.s
+
+# PA2
+
+# symlinks created by makefile
+assignments/PA2/cgen
+assignments/PA2/parser
+assignments/PA2/semant
+
+# dependencies produced by make tool
+assignments/PA2/cool-lex.d
+# c source code produced by flex
+assignments/PA2/cool-lex.cc
+# executable files produced by g++
+assignments/PA2/*.o
+assignments/PA2/lexer
